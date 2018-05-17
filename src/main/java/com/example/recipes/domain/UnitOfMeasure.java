@@ -20,10 +20,10 @@ public class UnitOfMeasure {
 	public void setId(Long id) {
 		this.id = id;
 	}
-	public String getUom() {
+	public String getDescription() {
 		return description;
 	}
-	public void setUom(String uom) {
+	public void setDescription(String uom) {
 		this.description = uom;
 	}
 	
