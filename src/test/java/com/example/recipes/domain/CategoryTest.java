@@ -7,7 +7,7 @@ import org.junit.Test;
 
 public class CategoryTest {
 	
-2	Category category;
+	Category category;
 	
 	@Before
 	public void setUp() {
