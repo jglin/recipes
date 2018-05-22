@@ -15,11 +15,20 @@ public class CategoryTest {
 	}
 
 	@Test
-	public void testGetId() {
-		Long idValue = 41L;
-		category.setId(idValue);
-		
-		assertEquals(idValue, category.getId());
-	}
+    public void getId() throws Exception {
+        Long idValue = 4L;
+
+        category.setId(idValue);
+
+        assertEquals(idValue, category.getId());
+    }
+
+    @Test
+    public void getDescription() throws Exception {
+    }
+
+    @Test
+    public void getRecipes() throws Exception {
+    }
 
 }
