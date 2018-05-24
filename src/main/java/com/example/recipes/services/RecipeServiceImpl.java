@@ -12,6 +12,7 @@ import com.example.recipes.commands.RecipeCommand;
 import com.example.recipes.converters.RecipeCommandToRecipe;
 import com.example.recipes.converters.RecipeToRecipeCommand;
 import com.example.recipes.domain.Recipe;
+import com.example.recipes.exceptions.NotFoundException;
 import com.example.recipes.repositories.RecipeRepository;
 
 @Service
@@ -40,7 +41,7 @@ public class RecipeServiceImpl implements RecipeService {
 		Optional<Recipe> recipeOptional = recipeRepository.findById(l);
 		
 		if (!recipeOptional.isPresent()) {
-			throw new RuntimeException("Recipe Not Found");
+			throw new NotFoundException("Recipe Not Found. For ID value: " + l.toString());
 		}
 		
 		return recipeOptional.get();

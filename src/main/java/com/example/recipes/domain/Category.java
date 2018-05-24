@@ -10,7 +10,7 @@ import javax.persistence.ManyToMany;
 
 import lombok.EqualsAndHashCode;
 
-@EqualsAndHashCode(exclude = {"recipe"})
+//@EqualsAndHashCode(exclude = {"recipe"})
 @Entity
 public class Category {
 	
