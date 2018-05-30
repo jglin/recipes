@@ -16,6 +16,8 @@ From following Udemy course Spring Framework 5: Beginner to Guru
 * Circle CI was used for continuous integration.
 * WebJars is a popular repository for jar files: [https://www.webjars.org](https://www.webjars.org/). You can check what version is available, and get the proper config to put in Gradle or Maven.
 * KiteMatic is a gui tool for Docker. I followed this to install: [https://github.com/max-devjs/kitematic.wiki-my/blob/master/Linux-Install.md](https://github.com/max-devjs/kitematic.wiki-my/blob/master/Linux-Install.md)
+* Sequel Pro: MySql client, might be Mac only.
+* Codecov: Code coverage tool: [https://codecov.io](https://codecov.io)
 
 ### Tools I stumbled across (I may not have tried all of these)
 * RESTer - A Firefox extenstion for sending HTTP requests [https://addons.mozilla.org/en-US/firefox/addon/rester](https://addons.mozilla.org/en-US/firefox/addon/rester)
