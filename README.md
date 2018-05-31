@@ -1,3 +1,5 @@
+[![CircleCI](https://circleci.com/gh/jglin/recipes.svg?style=svg)](https://circleci.com/gh/jglin/recipes)
+
 # Spring Boot Recipe App
 From following Udemy course Spring Framework 5: Beginner to Guru
 
