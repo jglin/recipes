@@ -1,5 +1,8 @@
 [![CircleCI](https://circleci.com/gh/jglin/recipes.svg?style=svg)](https://circleci.com/gh/jglin/recipes)
 
+[![codecov](https://codecov.io/gh/jglin/recipes/branch/master/graph/badge.svg)](https://codecov.io/gh/jglin/recipes)
+
+
 # Spring Boot Recipe App
 From following Udemy course Spring Framework 5: Beginner to Guru
 
