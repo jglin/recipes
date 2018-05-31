@@ -1,13 +1,13 @@
 package com.example.recipes.commands;
 
 public class UnitOfMeasureCommand {
-    private Long id;
+    private String id;
     private String description;
     
-	public Long getId() {
+	public String getId() {
 		return id;
 	}
-	public void setId(Long id) {
+	public void setId(String id) {
 		this.id = id;
 	}
 	public String getDescription() {

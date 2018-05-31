@@ -3,16 +3,16 @@ package com.example.recipes.commands;
 import java.math.BigDecimal;
 
 public class IngredientCommand {
-    private Long id;
-    private Long recipeId;
+    private String id;
+    private String recipeId;
     private String description;
     private BigDecimal amount;
     private UnitOfMeasureCommand uom;
     
-	public Long getId() {
+	public String getId() {
 		return id;
 	}
-	public void setId(Long id) {
+	public void setId(String id) {
 		this.id = id;
 	}
 	public String getDescription() {
@@ -33,10 +33,10 @@ public class IngredientCommand {
 	public void setUom(UnitOfMeasureCommand unitOfMeasure) {
 		this.uom = unitOfMeasure;
 	}
-	public Long getRecipeId() {
+	public String getRecipeId() {
 		return recipeId;
 	}
-	public void setRecipeId(Long recipeId) {
+	public void setRecipeId(String recipeId) {
 		this.recipeId = recipeId;
 	}
 }
