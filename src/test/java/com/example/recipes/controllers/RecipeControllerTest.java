@@ -1,7 +1,6 @@
 package com.example.recipes.controllers;
 
 import static org.mockito.ArgumentMatchers.any;
-import static org.mockito.ArgumentMatchers.anyLong;
 import static org.mockito.ArgumentMatchers.anyString;
 import static org.mockito.Mockito.times;
 import static org.mockito.Mockito.verify;
@@ -66,14 +65,6 @@ public class RecipeControllerTest {
     	mockMvc.perform(get("/recipe/1/show"))
     	    .andExpect(status().isNotFound())
     	    .andExpect(view().name("404error"));
-    }
-    
-    @Test
-    public void testGetRecipeNumberFormatException() throws Exception {
-    	
-    	mockMvc.perform(get("/recipe/asdf/show"))
-    	    .andExpect(status().isBadRequest())
-    	    .andExpect(view().name("400error"));
     }
 
     @Test

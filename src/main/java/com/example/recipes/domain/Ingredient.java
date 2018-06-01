@@ -1,12 +1,17 @@
 package com.example.recipes.domain;
 
 import java.math.BigDecimal;
+import java.util.UUID;
+
+import org.springframework.data.mongodb.core.mapping.DBRef;
 
 public class Ingredient {
 
-    private String id;
+	private String id = UUID.randomUUID().toString();
     private String description;
     private BigDecimal amount;
+    
+    @DBRef
     private UnitOfMeasure uom;
     private Recipe recipe;
 
@@ -23,7 +28,6 @@ public class Ingredient {
         this.description = description;
         this.amount = amount;
         this.uom = uom;
-        this.recipe = recipe;
     }
 
     public String getId() {
